@@ -1,6 +1,9 @@
+
 const shareButton = document.querySelector(".share-icon");
-const activeDiv = document.querySelector(".active");
+const activeDiv = document.querySelector(".active")
+const iconImage = document.querySelector("icon-img")
 
 shareButton.addEventListener("click", () => {
-  activeDiv.classList.toggle("hidden");
+  activeDiv.toggleAttribute("hidden");
+
 });
